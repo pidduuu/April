@@ -1,0 +1,60 @@
+* {
+    background: #ffffff;
+    color: black;
+    font-family: 'latohairline';
+}
+
+.title {
+    position: fixed;
+    font-size: 2vh;
+    left: 5vh;
+    animation: fadeIn ease 1s;
+}
+
+.images {
+    max-block-size: 80%;
+    max-width: 100%;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right-button {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    right: 12%;
+    opacity: 25%;
+    transition: 0.5s;
+    animation: fadeIn ease 1s;
+}
+.right-button:hover {
+    opacity: 100%;
+    transition: 0.5s;
+}
+.left-button {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    left: 12%;
+    opacity: 25%;
+    transition: 0.5s;
+    animation: fadeIn ease 1s;
+}
+.left-button:hover {
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+@font-face {
+    font-family: "latohairline";
+    src: url("lato-thin-webfont.woff");
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
