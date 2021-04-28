@@ -2,12 +2,19 @@
     font-family: 'latohairline';
 }
 
-.title a:any-link{
+.title a:any-link {
     position: fixed;
     margin-left: 1.2%;
     margin-top: 1%;
     font-size: 1.5vw;
-    font-weight: 400;
+    color: black;
+}
+.nav-bar {
+    list-style-type: none;
+    display: inline;
+    float: right;
+}
+.nav-bar a:any-link {
     color: black;
 }
 
