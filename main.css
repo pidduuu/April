@@ -1,18 +1,15 @@
 * {
-    background: #ffffff;
-    color: black;
     font-family: 'latohairline';
 }
 
-.title {
+h2 {
     position: fixed;
-    font-size: 2vh;
-    left: 5vh;
-    animation: fadeIn ease 1s;
+    margin-top: 0%;
+    left: 20px;
 }
 
 .images {
-    max-block-size: 80%;
+    max-block-size: 75%;
     max-width: 100%;
     height: auto;
     position: fixed;
