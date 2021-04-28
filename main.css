@@ -10,9 +10,9 @@
     color: black;
 }
 .nav-bar {
+    float: right;
     list-style-type: none;
     display: inline;
-    float: right;
 }
 .nav-bar a:any-link {
     color: black;
