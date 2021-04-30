@@ -5,16 +5,16 @@
 .title a:any-link {
     position: fixed;
     margin-left: 1.2%;
-    margin-top: 1%;
-    font-size: 1.5vw;
+    margin-top: 0.8%;
+    font-size: 2vw;
     color: black;
 }
-.nav-bar {
-    float: right;
-    list-style-type: none;
-    display: inline;
-}
 .nav-bar a:any-link {
+    display: inline;
+    float: right;
+    margin-right: 1.2%;
+    margin-top: 1%;
+    font-size: 1.5vw;
     color: black;
 }
 
@@ -27,7 +27,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 .right-button {
     position: fixed;
     width: 25px;
@@ -42,7 +41,6 @@
     opacity: 100%;
     transition: 0.5s;
 }
-
 .left-button {
     position: fixed;
     width: 25px;
