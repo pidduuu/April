@@ -1,64 +1,41 @@
 * {
-    font-family: 'latohairline';
+    font-family: "Lato";
 }
 
 .title a:any-link {
-    position: fixed;
-    margin-left: 1.2%;
-    margin-top: 0.8%;
+    float: left;
+    padding-left: 1.2%;
+    padding-top: 0.8%;
+    font: url("Lato/Lato-Regular.ttf");
     font-size: 2vw;
     color: black;
 }
 .nav-bar a:any-link {
-    display: inline;
     float: right;
-    margin-right: 1.2%;
-    margin-top: 1%;
-    font-size: 1.5vw;
+    display: inline;
+    padding-right: 1.2%;
+    padding-top: 1.4%;
+    font: url("Lato/Lato-Thin.ttf");
+    font-size: 1.3vw;
     color: black;
 }
 
 .images {
-    position: fixed;
-    max-block-size: 75%;
-    max-width: 100%;
-    height: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    float: right;
+    image-rendering: pixelated;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 5px;
 }
-.right-button {
-    position: fixed;
-    width: 25px;
-    height: 25px;
-    top: 50%;
-    right: 12%;
-    opacity: 25%;
-    transition: 0.5s;
-    animation: fadeIn ease 1s;
-}
-.right-button:hover {
-    opacity: 100%;
-    transition: 0.5s;
-}
-.left-button {
-    position: fixed;
-    width: 25px;
-    height: 25px;
-    top: 50%;
-    left: 12%;
-    opacity: 25%;
-    transition: 0.5s;
-    animation: fadeIn ease 1s;
-}
-.left-button:hover {
-    opacity: 100%;
-    transition: 0.5s;
+.row::before {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 @font-face {
     font-family: "latohairline";
-    src: url("lato-thin-webfont.woff");
+    src: url("Lato/Lato-Thin.ttf");
 }
 @keyframes fadeIn {
     0% {opacity:0;}
