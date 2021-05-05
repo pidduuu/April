@@ -32,12 +32,3 @@
     clear: both;
     display: table;
 }
-
-@font-face {
-    font-family: "latohairline";
-    src: url("Lato/Lato-Thin.ttf");
-}
-@keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
