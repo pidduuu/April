@@ -2,8 +2,18 @@
     font-family: "Lato";
 }
 
-.ul a:any-link {
+.nav-bar {
     list-style-type: none;
+    text-decoration: none;
+    overflow: hidden;
+    padding: 1%;
+    font: url("Lato/Lato-Thin.ttf");
+    font-size: 2vw;
+    color: black;
+}
+.nav-bar a:any-link {
+    list-style-type: none;
+    text-decoration: none;
     overflow: hidden;
     padding: 1%;
     font: url("Lato/Lato-Thin.ttf");
@@ -14,14 +24,14 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 4px;
 }
   
 /* Create four equal columns that sits next to each other */
 .column {
     flex: 25%;
     max-width: 25%;
-    padding: 0 4px;
+    padding: 4px;
 }
   
 .column img {
