@@ -2,33 +2,46 @@
     font-family: "Lato";
 }
 
-.title a:any-link {
-    float: left;
-    padding-left: 1.2%;
-    padding-top: 0.8%;
-    font: url("Lato/Lato-Regular.ttf");
+.ul a:any-link {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 1%;
+    font: url("Lato/Lato-Thin.ttf");
     font-size: 2vw;
     color: black;
 }
-.nav-bar a:any-link {
-    float: right;
-    display: inline;
-    padding-right: 1.2%;
-    padding-top: 1.4%;
-    font: url("Lato/Lato-Thin.ttf");
-    font-size: 1.3vw;
-    color: black;
-}
 
-.images {
-    float: right;
-    image-rendering: pixelated;
-    box-sizing: border-box;
-    width: 50%;
-    padding: 5px;
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
-.row::before {
-    content: "";
-    clear: both;
-    display: table;
+  
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+  
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+  
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
 }
