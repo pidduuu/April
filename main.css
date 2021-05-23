@@ -5,8 +5,11 @@
 .nav-bar {
     list-style-type: none;
     text-decoration: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    margin: 0%;
     overflow: hidden;
-    padding: 1%;
     font: url("Lato/Lato-Thin.ttf");
     font-size: 2vw;
     color: black;
@@ -14,8 +17,11 @@
 .nav-bar a:any-link {
     list-style-type: none;
     text-decoration: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    margin: 0%;
     overflow: hidden;
-    padding: 1%;
     font: url("Lato/Lato-Thin.ttf");
     font-size: 2vw;
     color: black;
@@ -24,32 +30,29 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 4px;
-}
-  
-/* Create four equal columns that sits next to each other */
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 4px;
 }
   
 .column img {
-    margin-top: 8px;
-    vertical-align: middle;
+    padding-top: 6px;
     width: 100%;
 }
-  
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+
+/* THREE COLUMN LAYOUT (STANDARD) */
+.column {
+    flex: 30%;
+    max-width: 33%;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+/* TWO COLUMN LAYOUT */
+@media (max-width: 800px) {
     .column {
-      flex: 50%;
+      flex: 48%;
       max-width: 50%;
     }
 }
-  
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+/* ONE COLUMN LAYOUT */
+@media (max-width: 600px) {
     .column {
       flex: 100%;
       max-width: 100%;
