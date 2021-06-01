@@ -2,7 +2,7 @@
     font-family: "Lato";
 }
 
-.nav-bar {
+.title {
     list-style-type: none;
     text-decoration: none;
     padding-left: 2px;
@@ -14,7 +14,7 @@
     font-size: 2vw;
     color: black;
 }
-.nav-bar a:any-link {
+.title a:any-link{
     list-style-type: none;
     text-decoration: none;
     padding-left: 2px;
@@ -31,13 +31,12 @@
     display: flex;
     flex-wrap: wrap;
 }
-  
 .column img {
     padding-top: 6px;
     width: 100%;
 }
 
-/* THREE COLUMN LAYOUT (STANDARD) */
+/* THREE COLUMN LAYOUT (default) */
 .column {
     flex: 30%;
     max-width: 33%;
@@ -57,4 +56,13 @@
       flex: 100%;
       max-width: 100%;
     }
+}
+
+.footer {
+    position: unset;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: grey;
 }
