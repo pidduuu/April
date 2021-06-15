@@ -4,29 +4,21 @@
     color: black;
 }
 .header {
-    text-decoration: none;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     margin: 0;
     padding-left: 2px;
-    overflow: hidden;
-    font: url("Lato/Lato-Thin.ttf");
     font-size: 2vw;
 }
 .header a:any-link {
     text-decoration: none;
-    display: inline-block;
-    margin: 0;
-    padding-left: 2px;
 }
 .header-right {
-    text-decoration: none;
-    display: inline-block;
     margin: 0;
     padding-left: 10px;
-    padding-right: 20px;
-    overflow: hidden;
-    font: url("Lato/Lato-Thin.ttf");
-    font-size: 2vw;
+    padding-right: 10px;
+    font-size: 1.2vw;
 }
 
 /*IMAGES*/
