@@ -1,43 +1,35 @@
+/*GENERAL LAYOUT*/
 * {
     font-family: "Lato";
+    color: black;
 }
-
 .header {
-    list-style-type: none;
     text-decoration: none;
+    display: inline-block;
+    margin: 0;
     padding-left: 2px;
-    padding-right: 2px;
-    padding-bottom: 2px;
-    margin: 0%;
     overflow: hidden;
     font: url("Lato/Lato-Thin.ttf");
     font-size: 2vw;
-    color: black;
 }
 .header a:any-link {
-    list-style-type: none;
     text-decoration: none;
+    display: inline-block;
+    margin: 0;
     padding-left: 2px;
-    padding-right: 2px;
-    padding-bottom: 2px;
-    margin: 0%;
+}
+.header-right {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 20px;
     overflow: hidden;
     font: url("Lato/Lato-Thin.ttf");
     font-size: 2vw;
-    color: black;
 }
 
-.header-icons {
-    float: right;
-    width: 100%;
-    height: auto;
-    max-width: 2vw;
-    padding-top: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-    margin: 0%;
-}
-
+/*IMAGES*/
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -47,7 +39,7 @@
     padding-top: 4px;
 }
 
-/*ALL LAYOUTS OPTIMIZED FOR 1920X1080 RESOLUTION SCREENS*/
+/*all layouts optimized for 1920x1080 screens*/
 /* three column layout (default) */
 .column {
     flex: 30%;
